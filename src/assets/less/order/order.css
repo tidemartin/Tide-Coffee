@@ -1,0 +1,150 @@
+.order {
+  padding-top: 46px;
+}
+.order /deep/ .van-nav-bar__text {
+  color: #0C34BA;
+}
+.order /deep/ .van-nav-bar .van-icon {
+  color: #0C34BA;
+}
+.order .order-bg {
+  height: 100px;
+  background-color: #0C34BA;
+}
+.order .tab-box {
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.order .tab-item {
+  margin-top: 10px;
+  padding: 0 10px 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.order .tab-item-box {
+  border-bottom: 1px solid #e8e8e8;
+}
+.order .no,
+.order .text,
+.order .finished {
+  color: #999;
+  font-size: 14px;
+  line-height: 40px;
+  text-indent: 10px;
+  margin-right: 17px;
+}
+.order .text,
+.order .finished {
+  color: #1989fa;
+  font-weight: bold;
+}
+.order .finished {
+  margin-right: 2px;
+}
+.order .text-box-tab {
+  display: flex;
+}
+.order .remove {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 4px;
+  color: #999;
+  font-size: 20px;
+  padding-right: 14px;
+  margin-right: -10px;
+}
+.order .order-box {
+  background-color: #fff;
+  border-radius: 10px;
+}
+.order .cell-box {
+  padding-top: 40px;
+}
+.order .order-title {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.order .pro-img {
+  width: 70px;
+  height: 70px;
+  margin: 0 10px;
+}
+.order .pro-info {
+  width: calc(100% - 114px);
+  height: 70px;
+}
+.order .text-box {
+  height: 46px;
+}
+.order .price-box {
+  height: 24px;
+}
+.order .text-name,
+.order .text-rule {
+  height: 22px;
+  line-height: 22px;
+}
+.order .text-name {
+  font-size: 16px;
+  color: #444;
+}
+.order .text-rule {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #999;
+}
+.order .text-enname {
+  height: 24px;
+  font-size: 12px;
+  color: #999;
+  text-align: left;
+  line-height: 24px;
+}
+.order .price {
+  color: #1989fa;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+}
+.order .count {
+  line-height: 24px;
+  font-size: 14px;
+  color: #999;
+}
+.order .pro-box {
+  margin-top: 10px;
+  position: relative;
+}
+.order .pro-boxing {
+  padding-top: 75px;
+}
+.order .left {
+  left: -20px;
+}
+.order .right {
+  right: -20px;
+}
+.order .pro-count {
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+  text-indent: 10px;
+}
+.order .pro-total {
+  font-size: 14px;
+  font-weight: bold;
+  color: #1989fa;
+}
+.order .date {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: left;
+  text-indent: 10px;
+}
+/*# sourceMappingURL=./order.css.map */

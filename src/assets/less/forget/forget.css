@@ -1,0 +1,38 @@
+.forget .login-logo {
+  display: flex;
+}
+.forget .login-logo .login-text {
+  line-height: 38px;
+  text-align: center;
+  font-weight: 700;
+  padding: 0 5px;
+}
+.forget .van-nav-bar__right {
+  margin-right: 10px;
+}
+.forget .welcome-back {
+  text-align: left;
+  margin-top: 100px;
+  padding: 0 20px;
+}
+.forget .welcome-back h2 {
+  font-weight: 600;
+}
+.forget .welcome-back .text {
+  font-size: 22px;
+  color: #999;
+}
+.forget .submit {
+  margin-top: 50px;
+}
+.forget .submit .van-button--primary {
+  border: 1px solid #1989fa;
+  background-color: #1989fa;
+}
+.forget .submit .already {
+  color: #1989fa;
+  padding: 15px 20px 10px 0 ;
+  text-align: right;
+  font-size: 13px;
+}
+/*# sourceMappingURL=./forget.css.map */

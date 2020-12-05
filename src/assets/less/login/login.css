@@ -1,0 +1,94 @@
+.login {
+  padding-top: 10px;
+}
+.login .login-logo {
+  display: flex;
+}
+.login .login-logo .login-text {
+  line-height: 38px;
+  text-align: center;
+  font-weight: 700;
+  padding: 0 5px;
+}
+.login .van-nav-bar__right {
+  margin-right: 10px;
+}
+.login .welcome-back {
+  text-align: left;
+  margin-top: 100px;
+  padding: 0 20px;
+}
+.login .welcome-back h2 {
+  font-weight: 600;
+}
+.login .welcome-back .text {
+  font-size: 22px;
+  color: #999;
+}
+.login .register {
+  margin-top: 60px;
+  padding: 0 10px;
+}
+.login .register .tips {
+  display: block;
+  font-size: 12px;
+  text-align: left;
+  color: red;
+  text-indent: 15px;
+  display: none;
+}
+.login .register .van-field__label {
+  width: 5.2em;
+  margin-right: 0;
+}
+.login .register .van-icon-fail {
+  color: red;
+}
+.login .register .remember-forget .remember {
+  display: flex;
+  padding: 15px;
+  padding-bottom: 8px;
+}
+.login .register .remember-forget .forget {
+  font-size: 12px;
+  text-align: right;
+  padding: 15px;
+  line-height: 12px;
+  padding-bottom: 8px;
+}
+.login .register .remember-forget .forget:hover {
+  cursor: pointer;
+  color: #f7671d;
+}
+.login .register .logon {
+  text-align: right;
+  padding: 5px 15px;
+  font-size: 14px;
+}
+.login .register .logon a {
+  display: inline-block;
+  margin-left: 10px;
+  color: #f7671d;
+  cursor: pointer;
+}
+.login .v-show span {
+  position: relative;
+}
+.login .v-show span:nth-of-type(1) {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 28px;
+  width: 100%;
+  text-align: left;
+  text-indent: 30px;
+  margin-top: 40px;
+}
+.login .v-register {
+  margin-top: 20px;
+  padding: 0 15px;
+}
+.login .van-popup {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/*# sourceMappingURL=./login.css.map */

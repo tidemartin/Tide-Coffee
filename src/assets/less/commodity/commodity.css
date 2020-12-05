@@ -1,0 +1,138 @@
+.commodity {
+  background: #474a578f;
+}
+.commodity .banner {
+  width: 100%;
+  height: 210px;
+  background: pink;
+  position: relative;
+}
+.commodity .banner img {
+  height: 100%;
+}
+.commodity .banner .text {
+  position: absolute;
+  left: 10px;
+  top: 120px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.527);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 30px;
+  line-height: 30px;
+}
+.commodity .banner .text span:nth-of-type(1) {
+  padding: 0 5px;
+}
+.commodity .banner .text span:nth-of-type(2) {
+  display: block;
+  text-align: left;
+}
+.commodity .banner .reace {
+  background: rgba(255, 255, 255, 0.58);
+  color: #444;
+}
+.commodity .banner .like {
+  position: absolute;
+  right: 20px;
+  top: 130px;
+}
+.commodity .banner .like i {
+  font-size: 24px;
+}
+.commodity .banner .like span {
+  display: block;
+}
+.commodity .content {
+  width: 100%;
+  font-size: 20px;
+  text-align: left;
+  text-indent: 10px;
+  padding-top: 30px;
+  background: #fff;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  position: absolute;
+  top: 230px;
+  left: 0;
+}
+.commodity .content .tem_desc {
+  height: 40px;
+  display: flex;
+}
+.commodity .content .tem_desc div {
+  color: #333;
+  font-size: 14px;
+  height: 25px;
+  line-height: 25px;
+  width: 70px;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: 30px;
+  background: rgba(153, 153, 153, 0.479);
+  text-indent: 0;
+}
+.commodity .content .tem_desc div.active {
+  color: #fff;
+  background: #1989fa;
+}
+.commodity .content .tem_desc:nth-of-type(2) {
+  text-indent: 31px;
+}
+.commodity .content .tem_desc:nth-last-of-type(3) {
+  position: relative;
+}
+.commodity .content .tem_desc:nth-last-of-type(3)::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 90%;
+  margin: 0 5%;
+  height: 1px;
+  background: rgba(153, 153, 153, 0.664);
+}
+.commodity .dest {
+  font-weight: 500;
+  position: relative;
+  margin-top: 10px;
+}
+.commodity .dest div {
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 11px;
+  text-indent: 0;
+  margin-top: 10px;
+  color: #999;
+}
+.commodity .dest::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -11px;
+  left: 0;
+  width: 90%;
+  margin: 0 5%;
+  height: 1px;
+  background: rgba(153, 153, 153, 0.664);
+}
+.van-goods-action {
+  height: 44px;
+}
+.van-goods-action .van-goods-action-icon {
+  letter-spacing: 2px;
+}
+.van-goods-action .van-goods-action-icon .van-goods-action-icon__icon {
+  margin-left: -5px;
+  padding-bottom: 0px;
+}
+.van-goods-action .van-info {
+  top: -4px;
+  right: -20px;
+  text-indent: 0;
+  background: #1989fa;
+}
+/*# sourceMappingURL=./commodity.css.map */

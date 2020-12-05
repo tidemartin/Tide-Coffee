@@ -1,0 +1,159 @@
+.menu {
+  background: #f4f4f4;
+  position: relative;
+}
+.menu .mask {
+  width: 100%;
+  height: 700px;
+  display: none;
+  background: rgba(0, 0, 0, 0.582);
+  position: absolute;
+  left: 0;
+  top: -20px;
+  z-index: 999;
+}
+.menu .mask .show {
+  width: 100%;
+  height: 50px;
+  transition: all 0.3s;
+}
+.menu .mask .show form {
+  padding-bottom: 10px;
+  height: 100%;
+}
+.menu .mask .show form .van-search--show-action {
+  padding: 13px 0 13px 5px;
+}
+.menu .mask .show .searchData {
+  background-color: #1989fa;
+  padding: 10px 0;
+  color: #fff;
+  text-align: left;
+  font-size: 14px;
+  text-indent: 33px;
+}
+.menu .title {
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+  background: #fff;
+  padding-bottom: 16px;
+}
+.menu .title .van-icon {
+  line-height: 20px;
+}
+.menu .title .return {
+  margin-left: 20px;
+}
+.menu .title .position {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  top: 0;
+  margin-left: -63px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.menu .title .position .text {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0 5px;
+}
+.menu .swipe {
+  background: #fff;
+}
+.menu .swipe .my-swipe .van-swipe-item {
+  color: #fff;
+  font-size: 20px;
+  line-height: 150px;
+  height: 180px;
+  text-align: center;
+  background-color: #39a9ed;
+  background-size: cover ;
+}
+.menu .label {
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+}
+.menu .label .box {
+  display: flex;
+  position: relative;
+  top: 0;
+}
+.menu .label .box .type {
+  background: #fff;
+  color: black;
+  width: 120px;
+  height: 70px;
+  padding-bottom: 13px;
+}
+.menu .label .box .type .label-icon {
+  width: 100%;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.menu .label .box .type .content {
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+}
+.menu .label .box .radiu {
+  color: #0a35b9;
+}
+.menu .package {
+  height: 292px;
+  overflow-y: auto;
+  background: #fff;
+}
+.menu .package .details {
+  padding: 0  10px;
+}
+.menu .package .details .item {
+  margin-top: 20px;
+  width: 100%;
+  height: 57px;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+  display: flex;
+}
+.menu .package .details .item .details-left {
+  border-radius: 50%;
+  width: 57px;
+  height: 100%;
+  background: no-repeat;
+  background-size: cover;
+}
+.menu .package .details .item .details-right {
+  color: black;
+  width: 50%;
+  text-align: left;
+  padding-left: 20px;
+}
+.menu .package .details .item .details-right .name {
+  font-weight: 700;
+  font-size: 18px;
+}
+.menu .package .details .item .details-right .englishName {
+  font-size: 14px;
+  color: #999;
+  margin-top: 15px;
+}
+.menu .package .details .item .and {
+  width: 20%;
+  display: flex;
+  margin-left: 25px;
+  margin-top: 37px;
+}
+.menu .package .details .item .and .money {
+  color: #051eaf;
+  font-size: 16px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=./menu.css.map */
